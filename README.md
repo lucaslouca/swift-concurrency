@@ -21,22 +21,22 @@ The list of items is a property list that contains an item ID as a key and a Str
 <plist version="1.0">
 	<dict>
 		<key>1</key>
-		<string>http://lucaslouca.com/item-1.xml</string>
+		<string>http://lucaslouca.com/swift-concurrency/item-1.xml</string>
 		<key>2</key>
-		<string>http://lucaslouca.com/item-2.xml</string>
+		<string>http://lucaslouca.com/swift-concurrency/item-2.xml</string>
 		<key>3</key>
-		<string>http://lucaslouca.com/item-3.xml</string>
+		<string>http://lucaslouca.com/swift-concurrency/item-3.xml</string>
 	</dict>
 </plist>
 ```
 Once we have fetched the list of items we start downloading each individual item's details from the provided  URL
 and load them into an in-memory dictionary that the app can access later when it needs information 
 about a certain item. The item's details are represented in XML form. For instance, the item located at
-http://lucaslouca.com/item-3.xml looks as follows:
+http://lucaslouca.com/swift-concurrency/item-3.xml looks as follows:
 ```xml
 <item>
 	<name>Pumpkin</name>
-	<imageUrl>http://lucaslouca.com/item-3.png</imageUrl>
+	<imageUrl>http://lucaslouca.com/swift-concurrency/item-3.png</imageUrl>
 </item>
 ```
 Note that the fetching of the items list, the download of an item's details XML, the parsing of the XML and the download of the item's image are all separate operations performed in the background to provide concurrency.
@@ -46,11 +46,11 @@ The next step is to fetch a list of orders from a server when the user taps a bu
 <plist version="1.0">
 	<dict>
 		<key>1</key>
-		<string>http://lucaslouca.com/order-1.xml</string>
+		<string>http://lucaslouca.com/swift-concurrency/order-1.xml</string>
 		<key>2</key>
-		<string>http://lucaslouca.com/order-2.xml</string>
+		<string>http://lucaslouca.com/swift-concurrency/order-2.xml</string>
 		<key>3</key>
-		<string>http://lucaslouca.com/order-3.xml</string>
+		<string>http://lucaslouca.com/swift-concurrency/order-3.xml</string>
 	</dict>
 </plist>
 ```
