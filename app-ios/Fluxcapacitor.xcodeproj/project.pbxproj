@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A004205E1B4AF10B00D7F619 /* FXCViewParallaxTableHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A004205D1B4AF10B00D7F619 /* FXCViewParallaxTableHeader.swift */; };
 		A02166E41B1B03DD00B846DC /* FXCSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02166E31B1B03DD00B846DC /* FXCSearchBar.swift */; };
-		A02996D31B274C8B007FC6C5 /* FXCViewParallaxTableHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02996D21B274C8B007FC6C5 /* FXCViewParallaxTableHeader.swift */; };
 		A02996D51B2771F9007FC6C5 /* FXCViewSectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = A02996D41B2771F9007FC6C5 /* FXCViewSectionHeader.xib */; };
 		A02996D71B277368007FC6C5 /* FXCViewSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02996D61B277368007FC6C5 /* FXCViewSectionHeader.swift */; };
 		A074776B1B1399B0002A2BB0 /* FXCViewControllerOrderDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = A074776A1B1399B0002A2BB0 /* FXCViewControllerOrderDetails.swift */; };
@@ -67,8 +67,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A004205D1B4AF10B00D7F619 /* FXCViewParallaxTableHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FXCViewParallaxTableHeader.swift; sourceTree = "<group>"; };
 		A02166E31B1B03DD00B846DC /* FXCSearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FXCSearchBar.swift; sourceTree = "<group>"; };
-		A02996D21B274C8B007FC6C5 /* FXCViewParallaxTableHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FXCViewParallaxTableHeader.swift; path = ../FXCViewParallaxTableHeader.swift; sourceTree = "<group>"; };
 		A02996D41B2771F9007FC6C5 /* FXCViewSectionHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FXCViewSectionHeader.xib; sourceTree = "<group>"; };
 		A02996D61B277368007FC6C5 /* FXCViewSectionHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FXCViewSectionHeader.swift; sourceTree = "<group>"; };
 		A074776A1B1399B0002A2BB0 /* FXCViewControllerOrderDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FXCViewControllerOrderDetails.swift; sourceTree = "<group>"; };
@@ -152,7 +152,7 @@
 		A0931FA81B0F55A800635A94 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				A02996D21B274C8B007FC6C5 /* FXCViewParallaxTableHeader.swift */,
+				A004205D1B4AF10B00D7F619 /* FXCViewParallaxTableHeader.swift */,
 				A095BFA21B18209F0039953F /* FXCTableViewCellOrderListing.xib */,
 				A0FA63551B20BC3800595B1D /* FXCViewOrderListingSort.xib */,
 				A0EFF9C11B23240500872411 /* FXCTableViewCellOrderDetailsDeliveryDetails.xib */,
@@ -422,7 +422,6 @@
 				A0E29FCB1B1F4286003A3953 /* FXCIconLocation.swift in Sources */,
 				A0FB8F261B248568001FD06D /* FXCOperationItemImageDownloader.swift in Sources */,
 				A0EB3CCF1B23376900C01F55 /* FXCIconPriceDollar.swift in Sources */,
-				A02996D31B274C8B007FC6C5 /* FXCViewParallaxTableHeader.swift in Sources */,
 				A0EFF9C21B23240500872411 /* FXCTableViewCellOrderDetailsDeliveryDetails.swift in Sources */,
 				A095BFAD1B19A1AB0039953F /* FXCOperationOrderDownloader.swift in Sources */,
 				A0E29FC91B1F3E26003A3953 /* FXCIconTime.swift in Sources */,
@@ -438,6 +437,7 @@
 				A0F9A8F81B08993D00B60DB0 /* Fluxcapacitor.xcdatamodeld in Sources */,
 				A08AB9091B1AE7C600FE8DFD /* FXCBorderView.swift in Sources */,
 				A095BFAF1B19AB270039953F /* FXCOrderFetchDelegate.swift in Sources */,
+				A004205E1B4AF10B00D7F619 /* FXCViewParallaxTableHeader.swift in Sources */,
 				A0D3847C1B247E7900F1C49D /* FXCOperationItemDownloader.swift in Sources */,
 				A095BFB11B1A269C0039953F /* FXCOperationOrderXMLParse.swift in Sources */,
 				A0F9A9181B089A8D00B60DB0 /* FXCButton.swift in Sources */,

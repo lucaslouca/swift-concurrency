@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "DD5A4CE03165F34B80C77C19D1E675E7D64968CE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6545248426953960F262CFF5AFF0CC5F4C355684" : 0,
+    "DD5A4CE03165F34B80C77C19D1E675E7D64968CE" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C2C1C4B2-2839-4DE2-BAFB-CED1C6FE52D8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6545248426953960F262CFF5AFF0CC5F4C355684" : "fluxcapacitor",
+    "DD5A4CE03165F34B80C77C19D1E675E7D64968CE" : "swift-concurrency\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Fluxcapacitor",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 203,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "app-ios\/Fluxcapacitor.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/lucaslouca\/fluxcapacitor.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6545248426953960F262CFF5AFF0CC5F4C355684"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/lucaslouca\/swift-concurrency.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DD5A4CE03165F34B80C77C19D1E675E7D64968CE"
+    }
+  ]
+}
