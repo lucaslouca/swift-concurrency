@@ -46,17 +46,19 @@ Once we have fetched the list of items we start downloading each individual item
 and load them into an in-memory dictionary that the app can access later when it needs information 
 about a certain item. The item's details are represented in XML form. For instance, the item located at
 http://lucaslouca.com/item-3.xml looks as follows:
+```xml
 <item>
 	<name>Pumpkin</name>
 	<imageUrl>http://lucaslouca.com/item-3.png</imageUrl>
 </item>
-
+```
 Note that the fetching of the items list, the download of an item's details XML, the parsing of the XML and the download of the
 item's image are all separate operations performed in the background to provide concurrency.
 
 The next step is to fetch a list of orders from a server when the user taps a button and fill
 the table view. For the sake of simplicity, the list will be a property list as well, that contains an
 order ID as a key and a String value holding the URL pointing to the order's details:
+```xml
 <plist version="1.0">
 	<dict>
 		<key>1</key>
@@ -67,11 +69,12 @@ order ID as a key and a String value holding the URL pointing to the order's det
 		<string>http://lucaslouca.com/order-3.xml</string>
 	</dict>
 </plist>
-
+```
 When the list download is complete, the first step is to populate the table view 
 with the orders. These orders do not contain all their details yet. Once the meta information
 of an order is displayed in the table view  - at this point only the information that there exists an order - 
 the download of the order's details is started. The order details are in XML form and have the following structure:
+```xml
 <order>
 	<title>Need groceries</title>
 	<info>Lorem ipsum</info>
@@ -99,20 +102,20 @@ the download of the order's details is started. The order details are in XML for
 		</item>
 	</items>
 </order>
-
+```
 While the order details are being downloaded and the XML being parsed, we display an activity indicator
-in the order's table view cell accessory view. Again, the fetching of the order list, the download and parsing of the 
-order's XML is done using separate operations in the background to provide concurrency and a responsive application
-flow. 
+in the order's table view cell accessory view. Again, the fetching of the order list, the download and parsing of the order's XML is done using separate operations in the background to provide concurrency and a responsive application flow. 
+
 
 To make the app even more responsive, when the user scrolls down the list of orders, any operations of order
-rows that are not visible any more will be cancelled and the processing of the newly visible orders is started. This
-makes sense because we want to display the user order details about the orders that are currently visible in
+rows that are not visible any more will be cancelled and the processing of the newly visible orders is started. This makes sense because we want to display the user order details about the orders that are currently visible in
 the table view.
+
 
 Once an order is completely downloaded and processed, the user can select the order from the table view to view
 the order's details. This is done by navigating (segue) to a separate view which displays a map containing the
 delivery location as well as a list of items and additional information about the order (date and time of delivery, etc).
+
 
 ### Additional features
 In addition to the above implementation for fetching, parsing and displaying orders in a table view, this
