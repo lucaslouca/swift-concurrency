@@ -86,6 +86,7 @@ When the list download is complete, the first step is to populate the table view
 ```
 While the order details are being downloaded and the XML being parsed, we display an activity indicator in the order's table view cell accessory view. Again, the fetching of the order list, the download and parsing of the order's XML is done using separate operations in the background to provide concurrency and a responsive application flow. 
 
+<img src="https://cloud.githubusercontent.com/assets/10542894/8528424/3f967654-2413-11e5-9af0-ac9617434c43.gif">
 
 To make the app even more responsive, when the user scrolls down the list of orders, any operations of order rows that are not visible any more will be cancelled and the processing of the newly visible orders is started. This makes sense because we want to display the user order details about the orders that are currently visible in the table view.
 
@@ -96,4 +97,4 @@ Once an order is completely downloaded and processed, the user can select the or
 ### Additional features
 In addition to the above implementation for fetching, parsing and displaying orders in a table view, this app features also stuff like pull to refresh, table view filtering, parallax UITableView header views and some fancy icons :-)
 
-
+<img src="https://cloud.githubusercontent.com/assets/10542894/8528487/88fe5d66-2413-11e5-94a2-71b2cded28ad.gif">
