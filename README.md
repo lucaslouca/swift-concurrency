@@ -5,7 +5,7 @@ This project illustrates how one can concurrently perform operations in iOS with
 <img src="https://cloud.githubusercontent.com/assets/10542894/8528424/3f967654-2413-11e5-9af0-ac9617434c43.gif">
 </section>
 ### Scenario
-This scenario implemented can be part of a grocery delivery system like <a href="https://www.instacart.com">Instacart</a>, where users place orders (not implemented here) for groceries to be delivered to them at a given address and time. These orders can then be viewed by couriers registered with the system that can pick and carry out an order. This project implements the part of such a system needed by a courier that wants an overview of orders in a region.
+This scenario implemented can be part of a grocery delivery system like <a href="https://www.instacart.com">Instacart</a>, where users place orders (not implemented here) for groceries to be delivered to them at a given address and time. These orders can then be viewed by couriers, registered with the system, who can pick and carry out an order. This project implements the system's part needed by a courier who wants an overview of orders in a region.
 
 An order contains the following information:
  - Delivery address
@@ -14,7 +14,7 @@ An order contains the following information:
  - Price offered by the person placing the order to a potential courier
  - Other information such as currency, etc
 
-The sample scenario that is being implemented here is fetching a list of orders from a server and display the orders in a UITableView. The user (courier) can then select an order from the table view to view further details for that order.
+The sample scenario that is being implemented here is fetching a list of orders from a server and display the orders in a UITableView. The user (courier) can then select an order from the table view to view additional details for that order.
 
 ### Implementation
 For the sake of consistency and in order to avoid any misconception, the items included in an order can only be chosen from a predefined list of possible items that the system will offer. Each item has a name and an image. An item can easily be extended to contain additional information like weight, price, etc. Since the list of possible items is predefined, it makes sense to load them from the server as soon as the app starts in order to avoid lacking and user waiting time later. The list of items consists of three items: Broccoli, Onion, Pumpkin.
