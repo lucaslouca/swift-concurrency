@@ -1,10 +1,11 @@
 # swift-concurrency
 This project illustrates how one can concurrently perform operations in iOS with the NSOperation and NSOperationQueue classes.
-
+<span>
 <img src="https://cloud.githubusercontent.com/assets/10542894/8564351/4d3ccb62-254b-11e5-8e24-c337be3968e5.png" width=320>
-
+</span>
+<span>
 <img src="https://cloud.githubusercontent.com/assets/10542894/8528424/3f967654-2413-11e5-9af0-ac9617434c43.gif">
-
+</span>
 ### Scenario
 This scenario implemented can be part of a grocery delivery system like <a href="https://www.instacart.com">Instacart</a>, where users place orders (not implemented here) for groceries to be delivered to them at a given address and time. These orders can then be viewed by couriers registered with the system that can pick and carry out an order. This project implements the part of such a system needed by a courier that wants an overview of orders in a region.
 
