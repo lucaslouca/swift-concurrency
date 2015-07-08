@@ -100,9 +100,7 @@ Once an order is completely downloaded and processed, the user can select the or
 ### Additional features
 In addition to the above implementation for fetching, parsing and displaying orders in a table view, this app features also stuff like pull to refresh, table view filtering, parallax UITableView header views and some fancy icons :-)
 
-<span>
+<section>
 <img src="https://cloud.githubusercontent.com/assets/10542894/8564353/53a9e9ee-254b-11e5-95c3-b200726b3ef2.png" width=320>
-</span>
-<span>
 <img src="https://cloud.githubusercontent.com/assets/10542894/8528487/88fe5d66-2413-11e5-94a2-71b2cded28ad.gif">
-</span>
+</section>
