@@ -89,7 +89,7 @@ When the list download is complete, the first step is to populate the table view
 ```
 While the order details are being downloaded and the XML being parsed, we display an activity indicator in the order's table view cell accessory view. Again, the fetching of the order list, the download and parsing of the order's XML is done using separate operations in the background to provide concurrency and a responsive application flow. 
 
-<img src="https://cloud.githubusercontent.com/assets/10542894/8528424/3f967654-2413-11e5-9af0-ac9617434c43.gif">
+<img src="https://cloud.githubusercontent.com/assets/10542894/8564526/59eb9b48-254d-11e5-8e5d-0973c07c7909.gif" width=320>
 
 To make the app even more responsive, when the user scrolls down the list of orders, any operations of order rows that are not visible any more will be cancelled and the processing of the newly visible orders is started. This makes sense because we want to display the user order details about the orders that are currently visible in the table view.
 
@@ -102,5 +102,5 @@ In addition to the above implementation for fetching, parsing and displaying ord
 
 <section>
 <img src="https://cloud.githubusercontent.com/assets/10542894/8564353/53a9e9ee-254b-11e5-95c3-b200726b3ef2.png" width=320>
-<img src="https://cloud.githubusercontent.com/assets/10542894/8528487/88fe5d66-2413-11e5-94a2-71b2cded28ad.gif">
+<img src="https://cloud.githubusercontent.com/assets/10542894/8564565/b506f144-254d-11e5-9d13-30548bab2a26.gif" width=320>
 </section>
