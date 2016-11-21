@@ -1,4 +1,3 @@
-# swift-concurrency
 This project illustrates how one can concurrently perform operations in iOS with the NSOperation and NSOperationQueue classes.
 <section>
 <img src="https://cloud.githubusercontent.com/assets/10542894/8564351/4d3ccb62-254b-11e5-8e24-c337be3968e5.png" width=320>
